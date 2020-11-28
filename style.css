@@ -106,7 +106,20 @@ box-shadow: 0 10px 30px rgba(0,0,0,.2);
 
 }
 
+.button-backpage{
+  background-color: #7a73ff ;
+  font-size: 14px;
+  padding: 15px 15px;
+  border-radius: 4px;
+  float: right;
+}
+
 .button-purple:hover{
+  background-color: #583d72;
+  color: white;
+}
+
+.button-backpage:hover{
   background-color: #583d72;
   color: white;
 }
