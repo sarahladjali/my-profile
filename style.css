@@ -1,15 +1,14 @@
 body {
 	background-color: #f1f3f8;
-font-family: 'Playfair Display', serif;
-font-weight: 400px;
-	font-size: 16px;
+  font-family: 'Playfair Display', serif;
+ 	font-size: 16px;
 	font-weight: bold;
 	text-align: center;
-
 }
 
+
 h1, h2 { 
-  font-family: 'Noto Sans JP', sans-serif
+  font-family: 'Roboto', sans-serif;
   font-weight 700;
 }
 
@@ -26,8 +25,8 @@ h2 {
 	color: #217aad;
 	font-size: 24px;
   	text-align: center
-
 }
+
 
 a {
   text-decoration: none;
@@ -60,6 +59,8 @@ ul {
   font-family: 'Playfair Display', serif;
 }
 
+/*Class */
+
 .container { 
 width: 900px;
 margin: 40px auto;
@@ -74,12 +75,6 @@ box-shadow: 0 10px 30px rgba(0,0,0,.2);
 }
 
 
-
-#introduction p{
-  margin-bottom: 40px;
-
-}
-
 .list-inline {
   list-style: none; 
   padding-left: 0px; 
@@ -90,6 +85,8 @@ box-shadow: 0 10px 30px rgba(0,0,0,.2);
   width: 20px;
 }
 
+/*social media icons*/
+
 .fab {
    font-size: 63px;
 }
@@ -98,27 +95,19 @@ box-shadow: 0 10px 30px rgba(0,0,0,.2);
   color: #583d72;
 }
 
+/*buttons*/
+
 .button-purple{
   background-color: #7a73ff ;
   font-size: 20px;
+  font-weight: 400px;
   padding: 15px 15px;
   border-radius: 4px;
-
+  font-family: 'Roboto', sans-serif;
 }
 
-.button-backpage{
-  background-color: #7a73ff ;
-  font-size: 14px;
-  padding: 50px 25px;
-  border-radius: 4px;
-}
 
 .button-purple:hover{
-  background-color: #583d72;
-  color: white;
-}
-
-.button-backpage:hover{
   background-color: #583d72;
   color: white;
 }
@@ -127,6 +116,15 @@ box-shadow: 0 10px 30px rgba(0,0,0,.2);
 .text-white{
   color: white;
 }
+
+
+/*id*/
+
+#introduction p{
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
 
 
 /* Form */
@@ -149,11 +147,12 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin-bottom: 15px;
+
 }
 
 input[type=submit]:hover {
   background-color: #583d72;
-  opacity: 20%; 
   color: white;
 }
 
@@ -175,6 +174,7 @@ input[type=submit]:hover {
   padding: 16px;
   font-size: 16px;
   border: none;
+  border-radius: 4px;
 }
 
 .dropdown {
@@ -197,7 +197,7 @@ input[type=submit]:hover {
   z-index: 1;
 }
 
-/* Links inside the dropdown */
+    /* Links inside the dropdown */
 .dropdown-content a {
   color: #583d72;
   padding: 12px 16px;
@@ -211,15 +211,19 @@ input[type=submit]:hover {
 .dropdown:hover .dropdown-content {
   display: block;}
 
-.dropdown:hover .dropbtn {background-color:#583d72;
+.dropdown:hover .dropbtn {
+  background-color:#583d72;
 }
 
 
+/*scroll to top button*/
 .top {
 float: right;
 color: #217aad;
 font-size: 30px;
 }
+
+/*responsivity*/
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -238,5 +242,6 @@ font-size: 30px;
   .container {
     width: 300px;
  }
+
 
 
